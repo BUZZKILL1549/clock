@@ -17,21 +17,10 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar"
-import {
-  InputOTP,
-  InputOTPGroup,
-  InputOTPSeparator,
-  InputOTPSlot
-} from "@/components/ui/input-otp"
-import { Button } from "@/components/ui/button"
 import { Timer } from "@/components/timer"
 import { Alarm } from "@/components/alarm"
 import { Stopwatch } from "@/components/stopwatch"
 import { WorldClock } from "@/components/worldclock"
-import { Play, Pause, RotateCw } from "lucide-react"
-import { Select } from "@/components/ui/select"
-import { SelectContent, SelectItem, SelectTrigger, SelectValue } from "@radix-ui/react-select"
-import { Input } from "@/components/ui/input"
 
 const breadcrumbMap: Record<string, string> = {
   "#timer": "Timer",

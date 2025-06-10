@@ -1,3 +1,5 @@
+"use client"
+
 import { Timer } from "@/components/timer"
 
 export default function TimerPage() {

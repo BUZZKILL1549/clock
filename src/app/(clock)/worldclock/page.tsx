@@ -1,3 +1,5 @@
+"use client"
+
 import { WorldClock } from "@/components/worldclock"
 
 export default function WorldClockPage() {

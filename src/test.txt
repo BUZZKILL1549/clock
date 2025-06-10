@@ -1,0 +1,52 @@
+.
+├── app
+│   ├── (clock)
+│   │   ├── alarm
+│   │   │   └── page.tsx
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── stopwatch
+│   │   │   └── page.tsx
+│   │   ├── timer
+│   │   │   └── page.tsx
+│   │   └── worldclock
+│   │       └── page.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components
+│   ├── alarm.tsx
+│   ├── app-sidebar.tsx
+│   ├── nav-main.tsx
+│   ├── nav-projects.tsx
+│   ├── nav-secondary.tsx
+│   ├── nav-user.tsx
+│   ├── stopwatch.tsx
+│   ├── theme-provider.tsx
+│   ├── timer.tsx
+│   ├── ui
+│   │   ├── avatar.tsx
+│   │   ├── breadcrumb.tsx
+│   │   ├── button.tsx
+│   │   ├── collapsible.tsx
+│   │   ├── command.tsx
+│   │   ├── dialog.tsx
+│   │   ├── dropdown-menu.tsx
+│   │   ├── input-otp.tsx
+│   │   ├── input.tsx
+│   │   ├── popover.tsx
+│   │   ├── select.tsx
+│   │   ├── separator.tsx
+│   │   ├── sheet.tsx
+│   │   ├── sidebar.tsx
+│   │   ├── skeleton.tsx
+│   │   └── tooltip.tsx
+│   └── worldclock.tsx
+├── hooks
+│   └── use-mobile.ts
+├── lib
+│   └── utils.ts
+└── test.txt
+
+11 directories, 39 files

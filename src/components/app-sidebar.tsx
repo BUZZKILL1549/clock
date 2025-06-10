@@ -21,22 +21,22 @@ const data = {
   navMain: [
     {
       title: "Timer",
-      url: "#timer",
+      url: "/timer",
       icon: Clock1
     },
     {
       title: "Stopwatch",
-      url: "#stopwatch",
+      url: "/stopwatch",
       icon: Clock4 
     },
     {
       title: "Alarm",
-      url: "#alarm",
+      url: "/alarm",
       icon: AlarmClock 
     },
     {
       title: "World Clock",
-      url: "#wclock",
+      url: "/wclock",
       icon: Globe 
     },
   ],

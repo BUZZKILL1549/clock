@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 
-export function Alarm() {
+export default function Alarm() {
   const [currentTime, setCurrentTime] = useState(new Date())
   const [alarmTime, setAlarmTime] = useState<string>("")
   const [alarmActive, setAlarmActive] = useState(false)
@@ -28,7 +28,7 @@ export function Alarm() {
       now.getSeconds() === 0
     ) {
       alarmSoundRef.current?.play()
-      alert("⏰ Wake up! Your alarm is ringing.")
+      alert("Wake up! Your alarm is ringing.")
       setAlarmActive(false)
     }
   }, [currentTime, alarmTime, alarmActive])

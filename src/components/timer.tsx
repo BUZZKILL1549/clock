@@ -124,6 +124,9 @@ export function Timer() {
       <div className="flex-col mt-5">
         <Button>Set Timer</Button>
       </div>
+      <div className="flex-col animate-pulse drop-shadow-lg mt-5">
+        <h3>Work in Progress</h3>
+      </div>
     </section>
   )
 }

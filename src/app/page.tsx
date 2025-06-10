@@ -17,10 +17,10 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar"
-import TimerPage from "@/app/clock/timer/page"
-import AlarmPage from "@/app/clock/alarm/page"
-import StopwatchPage from "@/app/clock/stopwatch/page"
-import WorldClockPage from "@/app/clock/worldclock/page"
+import TimerPage from "@/app/(clock)/timer/page"
+import AlarmPage from "@/app/(clock)/alarm/page"
+import StopwatchPage from "@/app/(clock)/stopwatch/page"
+import WorldClockPage from "@/app/(clock)/worldclock/page"
 
 const breadcrumbMap: Record<string, string> = {
   "#timer": "Timer",
@@ -45,7 +45,7 @@ export default function Page() {
     }
   }, []);
 
-  const currentPage = breadcrumbMap[currentHash] ?? "Dashboard";
+  const currentPage = breadcrumbMap[currentHash] ?? "Timer";
 
   const renderContent = () => {
     switch (currentPage) {
@@ -58,7 +58,7 @@ export default function Page() {
       case "World Clock":
         return <WorldClockPage />;
       default:
-        return <TimerPage />;
+        return <div><h3>Dashboard (will be removed at some point)</h3></div>;
     }
   };
 
@@ -76,7 +76,7 @@ export default function Page() {
             <Breadcrumb>
               <BreadcrumbList>
                 <BreadcrumbItem className="hidden md:block">
-                  <BreadcrumbLink href="#">Clock</BreadcrumbLink>
+                  <BreadcrumbLink href="/timer">Clock</BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbSeparator className="hidden md:block" />
                 <BreadcrumbItem>

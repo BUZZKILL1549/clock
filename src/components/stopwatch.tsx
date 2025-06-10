@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
 
-export function Stopwatch() {
+export default function Stopwatch() {
   const [elapsedMs, setElapsedMs] = useState(0)
   const [isRunning, setIsRunning] = useState(false)
   const [laps, setLaps] = useState<number[]>([])

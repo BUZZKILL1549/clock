@@ -1,6 +1,6 @@
 "use client"
 
-export function WorldClock() {
+export default function WorldClock() {
   return (
     <div className="flex items-center justify-center">
       <div className="flex-col animate-pulse drop-shadow-lg mt-5">

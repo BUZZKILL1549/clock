@@ -36,7 +36,7 @@ const data = {
     },
     {
       title: "World Clock",
-      url: "/wclock",
+      url: "/worldclock",
       icon: Globe 
     },
   ],

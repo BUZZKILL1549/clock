@@ -61,7 +61,7 @@ const presets = [
   }
 ]
 
-export function Timer() {
+export default function Timer() {
   const [open, setOpen] = useState(false)
   const [value, setValue] = useState("")
 

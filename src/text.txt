@@ -1,0 +1,17 @@
+app/
+├── (clock)
+│   ├── alarm
+│   │   └── page.tsx
+│   ├── layout.tsx
+│   ├── stopwatch
+│   │   └── page.tsx
+│   ├── timer
+│   │   └── page.tsx
+│   └── worldclock
+│       └── page.tsx
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+└── page.tsx
+
+6 directories, 9 files

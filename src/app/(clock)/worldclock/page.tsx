@@ -1,6 +1,6 @@
 "use client"
 
-import { WorldClock } from "@/components/worldclock"
+import WorldClock from "@/components/worldclock"
 
 export default function WorldClockPage() {
   return <WorldClock />
